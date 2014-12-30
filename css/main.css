@@ -3,32 +3,46 @@ body {
 }
 
 
-h1 {
-      color: #666666; 
+.main-heading {
+      color: #666; 
       font-size: 44px;
       letter-spacing: 2px;  
 }
 
 
-h2 {
-      color: #F07C17; 
+.sub-heading {
+      color: #f07c17; 
       font-weight: bold; 
       font-size: 25px;
+      margin: 0 0 28px 0;
+}
+
+
+.header {
+      margin-top: 30px;
+      margin-bottom: 20px;
+}
+
+
+.box {
+      border: 1px solid #ccc; 
+      padding: 30px 30px 22px 27px;
 }
 
 
 p, 
 ul {
-      color: #666666; 
+      color: #666; 
       font-size: 16px; 
       line-height: 2;
 }
 
 
-img{
+.picture {
       display: block;
-      max-width:100%;
-      max-height:100%;
+      margin-bottom: 31px;
+      max-width: 100%;
+      max-height: 100%;
       width: auto;
       height: auto;
 }
